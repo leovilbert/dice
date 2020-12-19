@@ -6,7 +6,7 @@ while True:
 
     roll = input('Deseja rolar o dado? ')
 
-    elif roll.isalpha() != True:
+    if roll.isalpha() != True:
         print("Digite apenas 'sim' ou 'não'.")
         continue
  
@@ -19,7 +19,7 @@ while True:
         while True:
             default_roll = input('Deseja rolar o dado default (6)? ')
 
-            elif default_roll.isalpha() != True:
+            if default_roll.isalpha() != True:
                 print("Digite apenas 'sim' ou 'não'.")
                 continue
 
